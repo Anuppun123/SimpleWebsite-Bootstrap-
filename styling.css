@@ -1,0 +1,111 @@
+/* Style body by adding background image and set
+it to cover, add font-family */
+body{
+    font-family: Arvo, serif;
+    background: url(images/bimage.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* logo */
+.logo{
+    width: 70px;
+    height: 40px;
+}
+/* style brand */
+
+/* Style navigation bar */
+.navbar-inverse{
+    background: rgba(0, 0, 0, 1);
+}
+.nav li{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+
+.nav li:hover{
+    border-bottom: 1px solid #00FFB8;
+    padding-bottom: 9px;
+}
+
+/* Style jumbotron */
+.jumbotron{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 80px;
+    letter-spacing: 5.5px;
+}
+.container{
+    max-width: 1000px;
+}
+
+/* limit the width of the icon section */
+.bodyimage{
+    height: 100px;
+    background-color: transparent;
+}
+.col-md-4{
+    text-align: center;
+    color: white;
+}
+.icon p{
+    font-size: 15px;
+}
+
+/* Style icons section using bootstrap grid system */
+
+/* Style contact button */
+.contact{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+.btn{
+    background-color: rgba(0, 255, 184, 0.5);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 70px;
+    letter-spacing: 2.3px;
+    
+}
+.btn:hover{
+    background-color: rgba(14, 193, 233, 0.5);
+    color: #fff;
+    border: none;
+}
+
+/* Style footer */
+.footer{
+    background-color: rgba(0,0,0,0.5);
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+/* Use media queried to change icons size to small devices */
+
+@media (max-width:768px){
+    .bodyimage{
+        height: 70px;
+    }
+}
+@media (min-width:468px) and (max-width:768px){
+    .logo{
+        width: 60px;
+        height: 35px;
+        padding-bottom: 5px;
+    }
+}
+
+@media (max-width:468px){
+    .logo{
+        width: 50px;
+        height: 20px;
+    }
+}
+
